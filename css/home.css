@@ -36,3 +36,26 @@ article h1 {
 article h1 b {
     font-weight: bold;
 }
+
+article ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+article ul li a {
+    -webkit-transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    -o-transition: color 0.25s ease-in;
+    -ms-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+    color: #BBB;
+}
+
+article ul li a:hover {
+    -webkit-transition: color 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in;
+    -o-transition: color 0.25s ease-in;
+    -ms-transition: color 0.25s ease-in;
+    transition: color 0.25s ease-in;
+    color: #307EA9;
+}
