@@ -24,3 +24,15 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+article {
+    text-align: center;
+}
+
+article h1 {
+    font-weight: 300;
+}
+
+article h1 b {
+    font-weight: bold;
+}
