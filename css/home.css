@@ -20,11 +20,6 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 article {
     text-align: center;
 }
@@ -37,12 +32,17 @@ article h1 b {
     font-weight: bold;
 }
 
-article ul li {
+ul.icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.icons li {
     display: inline;
     padding: 0 10px;
 }
 
-article ul li a {
+.icons a {
     -webkit-transition: color 0.25s ease-in;
     -moz-transition: color 0.25s ease-in;
     -o-transition: color 0.25s ease-in;
@@ -51,7 +51,7 @@ article ul li a {
     color: #BBB;
 }
 
-article ul li a:hover {
+.icons a:hover {
     -webkit-transition: color 0.25s ease-in;
     -moz-transition: color 0.25s ease-in;
     -o-transition: color 0.25s ease-in;
