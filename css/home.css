@@ -59,3 +59,7 @@ ul.icons {
     transition: color 0.25s ease-in;
     color: #307EA9;
 }
+
+footer p {
+    text-align: center;
+}
