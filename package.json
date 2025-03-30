@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "scripts": {
+    "open": "serve ."
+  }
+}
